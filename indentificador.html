@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="verificador.css">
+</head>
+
+<body>
+    <h1>Verificador de idade</h1>
+    <section>
+        <div id="botoes">
+            <p>Ano de nascimento: <input type="number" name="iptano" id="iptano" min="0"></p>
+            <p>sexo:
+                <input type="radio" name="radsex" id="smasc" checked> Masculino
+                <input type="radio" name="radsex" id="sfem"> Feminino
+            </p>
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+    
+            <div id="resultado">
+                Preenchar todos os dados acima parar ver o resultado!
+            </div>
+            <div id="imagem">
+                <img src="bolo.jpg" alt="bolo" id="img1">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Projeto n°2: identificador de idade</p>
+    </footer>
+    <script src="verificador.js"></script>
+</body>
+
+</html>
